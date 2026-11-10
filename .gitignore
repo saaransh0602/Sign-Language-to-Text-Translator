@@ -1,0 +1,66 @@
+# ============================================
+# Python & Virtual Environments
+# ============================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# ============================================
+# Byte-compiled / Cache files
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# ============================================
+# Distribution / Packaging
+# ============================================
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ============================================
+# Jupyter / IPython
+# ============================================
+.ipynb_checkpoints/
+
+# ============================================
+# IDEs & Code Editors
+# ============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# Operating System & Temporary Files
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# ============================================
+# Project Asset Protections (Explicit Whitelist)
+# DO NOT ignore essential model, dataset, or label files:
+# - dataset_sequences/
+# - sign_seq_translator_v2.h5
+# - label_map.pkl
+# ============================================
+!dataset_sequences/
+!*.pkl
+!*.h5
+
